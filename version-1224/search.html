@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>搜索影片-欧美最新电影-最新电影大全-高清影片在线观看</title>
+  <meta name="description" content="搜索欧美最新电影、高清影片、热门电影和分类内容。">
+  <meta name="keywords" content="欧美最新电影,欧美电影,最新电影,高清影片,电影大全,热门电影">
+  <meta name="robots" content="index,follow">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="搜索影片-欧美最新电影-最新电影大全-高清影片在线观看">
+  <meta property="og:description" content="搜索欧美最新电影、高清影片、热门电影和分类内容。">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body data-root="">
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="欧美电影大全">
+      <span class="brand-icon">▶</span>
+      <span class="brand-copy">
+        <strong>欧美电影大全</strong>
+        <small>最新电影与高清影片资源</small>
+      </span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="nav-link" href="index.html">首页</a><a class="nav-link" href="categories.html">分类</a><a class="nav-link" href="category/oumei.html">欧美影视</a><a class="nav-link" href="ranking.html">排行榜</a><a class="nav-link" href="all.html">全部影片</a>
+    </nav>
+    <form class="header-search" action="search.html" method="get">
+      <label class="sr-only" for="header-search-site">搜索影片</label>
+      <input id="header-search-site" name="q" type="search" placeholder="搜索影片..." autocomplete="off">
+      <button type="submit" aria-label="提交搜索">⌕</button>
+    </form>
+    <button class="mobile-menu-button" type="button" data-mobile-menu-button aria-label="打开导航菜单">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" data-mobile-menu>
+    <form class="mobile-search" action="search.html" method="get">
+      <input name="q" type="search" placeholder="搜索影片、类型、地区..." autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+    <nav aria-label="移动端导航">
+      <a class="nav-link" href="index.html">首页</a><a class="nav-link" href="categories.html">分类</a><a class="nav-link" href="category/oumei.html">欧美影视</a><a class="nav-link" href="ranking.html">排行榜</a><a class="nav-link" href="all.html">全部影片</a>
+    </nav>
+  </div>
+</header>
+<main>
+<section class="search-hero container">
+  <h1>搜索影片</h1>
+  <p>输入影片标题、地区、类型、标签或年份，快速查找全站 2000 部影片。</p>
+  <form class="search-box" data-search-form>
+    <input type="search" data-search-input placeholder="例如：欧美 悬疑 2024" autocomplete="off">
+    <select data-search-category>
+      <option value="">全部分类</option>
+<option value="欧美影视">欧美影视</option>
+<option value="国产影视">国产影视</option>
+<option value="日韩影视">日韩影视</option>
+<option value="港台影视">港台影视</option>
+<option value="其他影视">其他影视</option>
+    </select>
+    <select data-search-year>
+      <option value="">全部年份</option>
+<option value="根据片名判断">根据片名判断</option>
+<option value="2041">2041</option>
+<option value="2030">2030</option>
+<option value="2029">2029</option>
+<option value="2028">2028</option>
+<option value="2027">2027</option>
+<option value="2026">2026</option>
+<option value="2025">2025</option>
+<option value="2024">2024</option>
+<option value="2023">2023</option>
+<option value="2022">2022</option>
+<option value="2021">2021</option>
+<option value="2020">2020</option>
+<option value="2019">2019</option>
+<option value="2018">2018</option>
+<option value="2017">2017</option>
+<option value="2016">2016</option>
+<option value="2015">2015</option>
+<option value="2014">2014</option>
+<option value="2013">2013</option>
+<option value="2012">2012</option>
+<option value="2011">2011</option>
+<option value="2010">2010</option>
+<option value="2009">2009</option>
+<option value="2008">2008</option>
+    </select>
+    <button type="submit">搜索</button>
+  </form>
+  <p class="filter-status" data-search-status>请输入关键词开始搜索。</p>
+</section>
+<section class="search-results">
+  <div class="container">
+    <div class="movie-grid" data-search-results></div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="footer-brand"><span class="brand-icon">▶</span><strong>欧美电影大全</strong></div>
+      <p>聚合欧美最新电影栏目，按类型、热度与更新时间展示影片。</p>
+    </div>
+    <div>
+      <h2>快速导航</h2>
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="categories.html">分类总览</a></li>
+        <li><a href="ranking.html">热门排行榜</a></li>
+        <li><a href="all.html">全部影片</a></li>
+        <li><a href="sitemap.html">站内索引</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>影视分类</h2>
+      <ul>
+        <li><a href="category/oumei.html">欧美影视</a></li>
+        <li><a href="category/guochan.html">国产影视</a></li>
+        <li><a href="category/rihan.html">日韩影视</a></li>
+        <li><a href="category/gangtai.html">港台影视</a></li>
+        <li><a href="category/qita.html">其他影视</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© 2026 欧美电影大全 · 聚合欧美最新电影栏目，按类型、热度与更新时间展示影片。</p>
+  </div>
+</footer>
+<script src="assets/search-data.js"></script>
+<script src="assets/site.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
